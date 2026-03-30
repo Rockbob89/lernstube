@@ -1,0 +1,4 @@
+-- Task 7: Incremental Models & Snapshots
+-- This is a placeholder. Your actual solution will be multiple files:
+--   models/staging/stg_orders.sql (or models/marts/fct_orders.sql) — incremental
+--   snapshots/orders_snapshot.sql

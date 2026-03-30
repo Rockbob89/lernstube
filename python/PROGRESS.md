@@ -1,12 +1,12 @@
 # Python — Progress
 
-**Current Task**: 1 — Args & Kwargs
+**Current Task**: 4 — Decorators & Closures
 
 | # | Task | Status |
 |---|------|--------|
-| 1 | Args & Kwargs | **current** |
-| 2 | Data Structures Deep Dive | — |
-| 3 | Comprehensions & Generators | — |
+| 1 | Args & Kwargs | done |
+| 2 | Data Structures Deep Dive | done |
+| 3 | Comprehensions & Generators | done |
 | 4 | Decorators & Closures | — |
 | 5 | Context Managers | — |
 | 6 | Error Handling | — |

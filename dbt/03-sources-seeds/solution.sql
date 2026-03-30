@@ -1,0 +1,7 @@
+-- Task 3: Sources & Seeds
+-- This is a placeholder. Your actual solution will be multiple files:
+--   seeds/raw_customers.csv
+--   seeds/raw_orders.csv
+--   models/staging/schema.yml
+--   models/staging/stg_customers.sql (refactored)
+--   models/staging/stg_orders.sql (refactored)

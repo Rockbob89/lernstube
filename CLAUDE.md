@@ -14,18 +14,20 @@ When I name a technology:
 2. Create a learning plan as a numbered task list. End with a capstone project.
 3. Write the plan to `<tech>/TASKS.md`.
 4. Initialize `<tech>/PROGRESS.md` with task 1 as current.
-5. Scaffold the first task folder (`<tech>/01-<name>/`). Tell me which files go where.
-6. Update `README.md` with the new technology and status.
+5. Create **all** task folders (`<tech>/NN-<name>/`) with `TASK.md` files at once.
+6. For each task that involves writing functions: create a solution file (appropriate extension for the technology) with function stubs and example calls at the bottom. Skip this for structural tasks (packaging, testing setup, capstones).
+7. Update `README.md` with the new technology and status.
 
 ### 2. Per Task
 - Each task lives in `<tech>/NN-<name>/`.
 - Write the task description to `TASK.md` inside that folder.
-- **Scaffolding rule**: For the FIRST task of a new technology, explain the file structure, what each file does, and provide boilerplate. After that initial introduction, I create and adapt files myself. You do not provide boilerplate again.
+- **Scaffolding rule**: For the FIRST task of a new technology, provide a brief introduction (what the tool is, core mental model, how it fits in the ecosystem), explain the file structure, what each file does, and provide boilerplate. Teach enough to get started — don't assume prior knowledge of the tool. After that initial introduction, I create and adapt files myself. You do not provide boilerplate or unsolicited explanations again.
+- When a task requires a specific concept or technique, the TASK.md "What to Learn" section must include a brief explanation with a minimal example — don't just name the concept.
 - Tasks must be completable in one sitting alongside other work.
 
 ### 3. Submissions
 - I submit my solution. You evaluate it.
-- **Correct**: Confirm. Update `PROGRESS.md`. Move to next task.
+- **Correct**: Confirm. Brief positive feedback if earned — no fluff, but acknowledge solid work. Update `PROGRESS.md`. Move to next task.
 - **Wrong**: Say "Wrong." — nothing else.
 - **I ask for a hint**: Give exactly one minimal hint.
 - **I ask for the solution**: Provide it with a brief explanation.

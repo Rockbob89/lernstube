@@ -1,0 +1,6 @@
+-- Task 4: Testing
+-- This is a placeholder. Your actual solution will be multiple files:
+--   models/staging/schema.yml (updated with tests)
+--   models/marts/schema.yml (new, with tests)
+--   tests/assert_no_negative_amounts.sql
+--   packages.yml

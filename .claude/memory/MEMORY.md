@@ -1,0 +1,1 @@
+- [Teaching approach](feedback_teaching.md) — never give solutions, build from simple examples, don't oscillate between strict and permissive

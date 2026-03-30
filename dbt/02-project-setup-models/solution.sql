@@ -1,0 +1,8 @@
+-- Task 2: Project Setup & Models
+-- This is a placeholder. Your actual solution will be multiple files
+-- in a dbt project structure:
+--   dbt_project.yml
+--   profiles.yml
+--   models/staging/stg_customers.sql
+--   models/staging/stg_orders.sql
+--   models/marts/customer_orders.sql

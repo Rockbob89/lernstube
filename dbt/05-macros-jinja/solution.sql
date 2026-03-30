@@ -1,0 +1,5 @@
+-- Task 5: Macros & Jinja
+-- This is a placeholder. Your actual solution will be multiple files:
+--   models/staging/stg_orders_enriched.sql
+--   macros/cents_to_dollars.sql
+--   macros/generate_surrogate_key.sql
