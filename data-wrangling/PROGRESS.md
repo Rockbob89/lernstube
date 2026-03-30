@@ -1,10 +1,10 @@
 # Progress
 
 ## Current Milestone
-01 — Load and Explore
+02 — Clean and Transform
 
 ## Status
 Not started
 
 ## Completed
-(none)
+- 01 — Load and Explore

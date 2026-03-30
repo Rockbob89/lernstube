@@ -8,7 +8,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("./listings.csv.gz")
+df = pd.read_csv("./data-wrangling/listings.csv.gz")
 
 print("shape: " , df.shape)
 print("head: " , df.head())
@@ -22,7 +22,6 @@ nullcount = df.isnull().sum()
 columns_with_null = nullcount[nullcount>0]
 
 print("columns_with_null: ", columns_with_null)
-print("columns.tolist: " , df.columns.tolist())
 
 cols = [
     "neighborhood_overview", "host_location", "host_neighbourhood",
@@ -32,7 +31,10 @@ cols = [
     "estimated_revenue_l365d", "review_scores_rating",
 ]
 
+
+"name", "neighbourhood_grpuped_cleansed", "bathrooms", "bedrooms", "has_availablity", "review_scores_accuracy", "review_scores_cleanliness", "review_scores_value", 
 print(cols)
 
 print("room_type.value_counts: ", df["room_type"].value_counts())
 print("room_type.neighbourhood_cleansed: ", df["neighbourhood_cleansed"].value_counts())
+print("columns.tolist: " , df.columns.tolist())
