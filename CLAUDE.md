@@ -43,8 +43,9 @@ Do NOT pre-generate all milestone folders and descriptions. Each milestone is wr
 
 ### 2. Per Milestone
 - Each milestone lives in `<module>/NN-<name>/`.
-- `MILESTONE.md` contains: what you're building in this step, what concepts you need, examples, and the goal.
+- `MILESTONE.md` contains: what you're building in this step, what concepts you need, examples, and the goal. File structure goes at the top.
 - **Scaffolding rule**: For milestone 1 of a new module, provide a brief introduction (what the tool is, core mental model, how it fits in the ecosystem), explain the file structure, and provide starter code. After that, I build on my own code from previous milestones.
+- **Empty files**: When creating a milestone, create the empty files the student needs to fill in (e.g. `explore.py`). Don't add content — just create them so the student knows where to write.
 - Milestones must be completable in one sitting alongside other work.
 
 ### 3. Reviews

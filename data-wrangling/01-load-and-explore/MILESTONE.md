@@ -1,5 +1,16 @@
 # Milestone 1: Load and Explore
 
+## File Structure
+
+```
+data-wrangling/
+├── 01-load-and-explore/
+│   ├── MILESTONE.md
+│   └── explore.py        ← you write this
+```
+
+Put the CSV in this directory or a `data/` subdirectory — your call. Don't commit the CSV.
+
 ## What You're Building
 
 A script that loads the Berlin Airbnb listings dataset, inspects it, and produces a summary of the columns you'll work with going forward. Think of it as the "what have we got?" step before any real analysis.
@@ -81,14 +92,3 @@ Write `explore.py` that:
 5. Prints `value_counts()` for `room_type` and `neighbourhood_cleansed`.
 
 No cleaning yet — just load, look, and decide what to keep.
-
-## File Structure
-
-```
-data-wrangling/
-├── 01-load-and-explore/
-│   ├── MILESTONE.md
-│   └── explore.py        ← you write this
-```
-
-Put the CSV in this directory or a `data/` subdirectory — your call. Don't commit the CSV.
